@@ -1,3 +1,4 @@
+#solve function takes care of individual test case
 from collections import Counter
 def solve():
     n,m=map(int,input().split())

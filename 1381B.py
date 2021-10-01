@@ -1,4 +1,4 @@
-for _ in range(int(input())):
+def solve():
     n=int(input())
     a=list(map(int,input().split()));flag=1
     c=0
@@ -18,6 +18,9 @@ for _ in range(int(input())):
             print("First")
         else:
             print("Second")
+for _ in range(int(input())):
+    solve()
+    
 
         
 
