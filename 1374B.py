@@ -1,5 +1,6 @@
-for _ in range(int(input())):
-    n=int(input())
+#solve function takes care of individual test cases
+def solve():
+       n=int(input())
     flag=1;c=0
     while n>1:
         if n%6==0:
@@ -14,3 +15,5 @@ for _ in range(int(input())):
         print(c)
     else:
         print(-1)
+for _ in range(int(input())):
+    solve()
