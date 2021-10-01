@@ -1,4 +1,5 @@
-for _ in range(int(input())):
+def solve():
+    for _ in range(int(input())):
     n,k=map(int,input().split())
     s=input();b=0;j=0;ans=0
     for i in range(n):
@@ -34,3 +35,4 @@ for _ in range(int(input())):
     
 
 
+solve()
