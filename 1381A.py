@@ -1,5 +1,6 @@
+#solve function takes care of individual test case
 from collections import Counter
-for _ in range(int(input())):
+def solve():
     n,m=map(int,input().split())
     a=list(map(int,input().split()))
     b=list(map(int,input().split()))
@@ -12,3 +13,7 @@ for _ in range(int(input())):
             break
     if flag:
         print("NO")
+
+for _ in range(int(input())):
+    solve()
+    
