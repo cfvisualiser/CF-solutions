@@ -1,4 +1,8 @@
 from collections import Counter
+def solve:
+    for i in range(1,n):
+        print(i);
+        
 for _ in range(int(input())):
     s=input();n=len(s)
     d=Counter(s);maxi=0
@@ -22,8 +26,5 @@ for _ in range(int(input())):
             if ans2%2:ans2-=1
             mini=min(mini,n-ans1,n-ans2)
     print(mini)
-
-                
-
-
     
+solve();
