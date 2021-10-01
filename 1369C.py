@@ -1,4 +1,5 @@
-for _ in range(int(input())):
+def solve:
+    for _ in range(int(input())):
     n,k=map(int,input().split())
     a=list(map(int,input().split()))
     b=list(map(int,input().split()))
@@ -17,3 +18,4 @@ for _ in range(int(input())):
     print(c)
         
 
+solve();
