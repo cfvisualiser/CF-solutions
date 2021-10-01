@@ -13,7 +13,6 @@ def solve():
             break
     if flag:
         print("NO")
-
 for _ in range(int(input())):
     solve()
     
