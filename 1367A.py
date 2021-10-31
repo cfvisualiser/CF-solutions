@@ -8,6 +8,8 @@ def solution():
             print(b)
         else:
             print(t)
-     
+     s+=s[i]
+     a+1
+        
     
 solution()
