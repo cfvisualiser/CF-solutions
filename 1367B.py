@@ -13,5 +13,6 @@ def solve:
             print(e)
         else:
             print(-1)
-            
+      s+=1
+      p+=1
 solve()
