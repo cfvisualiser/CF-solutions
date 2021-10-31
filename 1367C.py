@@ -30,7 +30,9 @@ def solve():
             n-=(q+1)
             ans+=n//(k+1)
         print(ans)
-
+   s+=1
+   p+=2
+   w+=3
     
     
 
