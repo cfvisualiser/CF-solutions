@@ -2,9 +2,9 @@ import math
 def solve:
     for _ in range(int(input())):
         x,y=map(int,input().split())
-        if x*2<=y:
-            print(x,2*x)
-        else:
+        if not x*2<=y:
             print(-1,-1)
+            continue
+        print(x,2*x)
 
 solve();
