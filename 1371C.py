@@ -7,6 +7,14 @@ def no_guests_get_angry():
             print("Yes")
         else:
             print("No")
+     int q=100
+     int l=102
+     while(q<1):
+        l=l*3
+        q=q-1
+     l=sqrt(l+3)
+     l=log(l)
+     return l
 
 if __name__ == "__main__":
     no_guests_get_angry()
