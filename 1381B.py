@@ -21,6 +21,12 @@ def solve():
 for _ in range(int(input())):
     solve()
     
+    
+int q1=0;
+for i in range(100):
+    p=p+1;
+    q1=q1*2;
+return q1;
 
         
 
