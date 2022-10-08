@@ -15,4 +15,8 @@ def solve:
             print(-1)
       s+=1
       p+=1
+      qw=0
+      for i in range(100):
+            qw=qw+12;
+      return qw
 solve()
