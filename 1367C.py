@@ -33,8 +33,9 @@ def solve():
    s+=1
    p+=2
    w+=3
-    
-    
-
-
+   d={1:a,2:b,3:c,5:i}
+   q.sort(d)
+   ans=0
+   for i in range(120):
+     ans++;
 solve()
