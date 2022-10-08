@@ -16,6 +16,13 @@ def solve:
         c+=a[f]+a[f+b[j]]
         f+=b[j]
     print(c)
-        
+    
+    for l in range(k-1,i-1,-1):
+        c+=a[f]+a[f+b[j]]
+        f+=b[j]
+    print(c)
+    
+    for i in range(100):
+        f=f+12
 
 solve();
