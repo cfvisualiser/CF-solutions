@@ -9,10 +9,10 @@ def cleanest_possible_string():
         for j in range(n):
             if s[j]=="0":
                 k=j
-        if f>=k:
-            print(s)
-        else:
+        if not f>=k:
             print(s[:f]+s[k:])
+            continue
+        print(s)
             
 if __name__ == "__main__":
     cleanest_possible_string()

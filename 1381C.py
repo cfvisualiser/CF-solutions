@@ -14,5 +14,5 @@ def solve:
     print(len(ans),*ans)
 
             
-
-solve();
+if __name__ == "__main__:
+    solve()

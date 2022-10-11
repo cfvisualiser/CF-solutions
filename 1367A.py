@@ -10,6 +10,12 @@ def solution():
             print(t)
      s+=s[i]
      a+1
-        
-    
+   p=0
+   for i in range(1,n):
+        p=p+1
+    sk=0
+   for j in range(1,n):
+        sk++
+   return p+sk
+   
 solution()
